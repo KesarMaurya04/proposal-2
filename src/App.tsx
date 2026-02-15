@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import confetti from "canvas-confetti";
 
-const photos = ["/photo2.jpeg", "/photo3.jpeg", "/photo1.jpeg"];
+const photos = ["photo2.jpeg", "photo3.jpeg", "photo1.jpeg"];
 
 const styles: { [key: string]: React.CSSProperties } = {
   container: {
