@@ -142,7 +142,7 @@ export default function MahashivratriProposal() {
 
   return (
     <div style={styles.container}>
-      <audio ref={audioRef} src="/shiv.mp3" preload="auto" />
+      <audio ref={audioRef} src="shiv.mp3" preload="auto" />
 
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
